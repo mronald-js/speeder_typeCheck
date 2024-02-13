@@ -1,0 +1,97 @@
+/* Vamos estilizar um pouco a página */
+/* pagina não tem barra de scroll visivel, mas funciona */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #250f39;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section{
+    margin: 10px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+#caixaDeTexto {
+    height: 100vh;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+    text-align: center;
+}
+
+
+/* Dificuldades é inicialmente oculto */
+#dificuldades {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: none;
+}
+
+#btnIniciar{
+    padding: 30px;
+    border: none;
+    cursor: pointer;
+    background-color: #360048;
+    color: #fff;
+    font: 1.6em Arial, sans-serif;
+    letter-spacing: 5px;
+    width: 200px;
+    transition: all 0.5s ease;
+}
+
+#btnIniciar:hover{
+    background-color: #8d8793;
+    color: #000;
+    transition: 0.5s ease;
+}
+
+#texto {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: none;
+}
+
+#texto p {
+    display: none;
+}
+
+#tempo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: inline-block;
+}
+
+#entrada {
+    margin: 0 auto;
+    padding: 10px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* É importante que o footer não transborde e que o texto seja alinhado a direita*/
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #360048;
+    text-align: right;
+    color: aliceblue;
+    padding: 10px;
+    border-top: 1px solid #171515;
+}
+
+footer p {
+    margin-right: 20px;
+}

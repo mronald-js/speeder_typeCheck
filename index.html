@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Digitação | Marcello Ronald</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section id="caixaDeTexto">
+        <h1>TESTE DE DIGITAÇÃO</h1>
+        <button id="btnIniciar" onclick="startGame()">Iniciar</button> <!-- Esse botão irá gerar um texto aleatório ao ser clicado -->
+    </section>
+
+    <!-- Aqui Virá a Dificuldade a ser escolhida, após o botão iniciar ser disparado (antes a sessão está escondida),
+        a dificuldade se dá em relação a quantidade de palavras e o tempo -->
+    <section id="dificuldades">
+        <h2>Escolha a dificuldade</h2>
+        <button id="btnFacil">Fácil</button>
+        <button id="btnMedio">Médio</button>
+        <button id="btnDificil">Difícil</button>
+    </section>
+
+    <!-- Aqui Virá o Texto a ser digitado, após a dificuldade ser escolhida -->
+    <section id="texto">
+        <h2>Texto</h2>
+        Tempo restante: <span id="tempo">00:00</span><br>
+        <p id="textoGerado">...</p><br>
+        <!-- Abaixo o campo para o usuário entrar com a entrada das palavras -->
+        <input type="text" id="entrada" placeholder="Digite as palavras aqui">
+    </section>
+
+    <footer>
+        <p>Desenvolvido por Marcello Ronald</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
