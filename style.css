@@ -59,10 +59,14 @@ section{
     margin-bottom: 10px;
     padding: 10px;
     display: none;
+    text-align: center;
 }
 
-#texto p {
+#textoGerado {
     display: none;
+    background-color: #60326f;
+    color: #fff;
+    padding: 40px;
 }
 
 #tempo {
@@ -78,6 +82,35 @@ section{
     width: 80%;
     display: flex;
     justify-content: space-between;
+}
+
+#marcadores {
+    background-color: rgb(106, 13, 164);
+    padding: 30px;
+    border-radius: 5px;
+    text-align: center;
+    color: #fff;
+}
+
+#WPM {
+    font-size: 48px;
+    background-color: #fcfbfc;
+    padding: 5px;
+    padding-right: 20px;
+    border-radius: 5px;
+    margin-right: 15px;
+    color: #360048;
+}
+
+#start {
+    background-color: #360048;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    margin: 30px;
+    border-radius: 10px;
 }
 
 /* É importante que o footer não transborde e que o texto seja alinhado a direita*/

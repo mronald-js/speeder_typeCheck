@@ -17,19 +17,23 @@
         a dificuldade se dá em relação a quantidade de palavras e o tempo -->
     <section id="dificuldades">
         <h2>Escolha a dificuldade</h2>
-        <button id="btnFacil">Fácil</button>
-        <button id="btnMedio">Médio</button>
-        <button id="btnDificil">Difícil</button>
+        <button id="easy">Poucas palavras</button>
+        <button id="hard">Muitas palavras</button>
     </section>
 
     <!-- Aqui Virá o Texto a ser digitado, após a dificuldade ser escolhida -->
     <section id="texto">
         <h2>Texto</h2>
-        Tempo restante: <span id="tempo">00:00</span><br>
+        <div id="marcadores">
+            <span id="WPM">WPM: 0</span>
+            Tempo restante: <span id="tempo">00:00</span><br>
+        </div>
         <p id="textoGerado">...</p><br>
         <!-- Abaixo o campo para o usuário entrar com a entrada das palavras -->
         <input type="text" id="entrada" placeholder="Digite as palavras aqui">
+        <button id="start"">Iniciar Teste</button> <!-- Esse botão irá gerar um texto aleatório ao ser clicado -->
     </section>
+
 
     <footer>
         <p>Desenvolvido por Marcello Ronald</p>
